@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.header-comp .header-inner {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 300px;
+}
+
+.header-comp .header-inner {
+    background: #f8f8f8;
+    height: 80px;
+    position: relative;
+    width: sticky;
+    z-index: 1001;
+}
+
+.grid {
+    background-color: aqua;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    display: grid;
+}
+
+.thumbnail {
+    width: auto;
+    height: auto;
+}
