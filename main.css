@@ -1,5 +1,6 @@
 body {
     background-color: #f8f8f8;
+    margin: 16px;
 }
 
 .header-comp .header-inner {
@@ -15,18 +16,31 @@ body {
     height: 80px;
     position: relative;
     width: sticky;
-    z-index: 1001;
 }
 
 .grid {
-    background-color: aqua;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 20px;
+    max-width: 1240px;
+    margin: 0 auto;
     display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
-.thumbnail {
-    width: auto;
-    height: auto;
+
+@media screen and (min-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+}  
+
+
+@media screen and (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+img {
+    background-size: cover;
+    background-position: center center;
 }
