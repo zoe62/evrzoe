@@ -1,6 +1,44 @@
+@font-face {
+    font-family: 'Geist';
+    font-style: 'normal';
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    src: url('./font/Geist-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Geist';
+    font-style: 'normal';
+    font-weight: 500;
+    letter-spacing: -0.9px;
+    src: url('./font/Geist-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Geist';
+    font-style: 'normal';
+    font-weight: 200;
+    letter-spacing: -0.9px;
+    src: url('./font/Geist-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Geist';
+    font-style: 'normal';
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    src: url('./font/Geist-Bold.woff2') format('woff2');
+}
+
 body {
+    font-family: 'Geist';
     background-color: #f8f8f8;
     margin: 16px;
+}
+
+.header-comp {
+    border-bottom: 1px solid rgba(26, 26, 26, 0.10);
+    background: #F8F8F8;
 }
 
 .header-comp .header-inner {
@@ -16,6 +54,24 @@ body {
     height: 80px;
     position: relative;
     width: sticky;
+}
+
+.zoelee {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sec1 {
+    max-width: 1240px;
+    height: 320px;
+    font-size: 36px;
+    font-weight: 200;
+    margin: 16px;
+}
+
+.txt {
+    vertical-align: middle;
+    word-wrap: break-word;
 }
 
 .grid {
@@ -43,4 +99,13 @@ body {
 img {
     background-size: cover;
     background-position: center center;
+}
+
+.footer {
+    height: 360px;
+}
+
+.footer-txt {
+    font-size: 16px;
+    font-weight: 200;
 }
