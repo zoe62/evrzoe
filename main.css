@@ -36,6 +36,10 @@ body {
     margin: 16px;
 }
 
+a {
+    text-decoration: none;
+  }
+
 .header-comp {
     border-bottom: 1px solid rgba(26, 26, 26, 0.10);
     background: #F8F8F8;
@@ -62,12 +66,9 @@ body {
     font-size: 20px;
 }
 
-.menu-btn{
-    font-weight: 200;
+.txt-btn {
     font-size: 16px;
-    opacity: 80%;
-    display: flex;
-    justify-content: space-between;
+    font-weight: 200;
 }
 
 .sec1 {
@@ -117,10 +118,10 @@ img {
 }
 
 .footer {
-    height: 360px;
+    height: 60px;
 }
 
 .footer-txt {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 200;
 }
