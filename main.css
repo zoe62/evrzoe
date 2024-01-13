@@ -36,9 +36,40 @@ body {
     margin: 16px;
 }
 
-a {
+a { 
+    text-decoration: none; 
+    color: 1a1a1a; 
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: 1a1a1a;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: 1a1a1a;
+}
+
+a:focus { 
+    text-decoration: none; 
+    color: 1a1a1a;
+}
+
+a:hover {
     text-decoration: none;
-  }
+    color: 1a1a1a;
+}
+
+a:active { 
+    text-decoration: none; 
+    color: 1a1a1a;
+}
+
+img {
+    background-size: cover;
+    background-position: center center;
+}
 
 .header-comp {
     border-bottom: 1px solid rgba(26, 26, 26, 0.10);
@@ -91,6 +122,11 @@ a {
     height: 100%;
 }
 
+.thumbnail-detail {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
 .grid {
     max-width: 1240px;
     margin: 0 auto;
@@ -112,10 +148,7 @@ a {
     }
 }
 
-img {
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .footer {
     height: 60px;
