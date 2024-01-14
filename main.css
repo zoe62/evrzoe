@@ -148,6 +148,22 @@ img {
     }
 }
 
+.description {
+    margin: 48px 16px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: 1a1a1a;
+}
+
+.grey-line {
+    font-size: 14px;
+    font-weight: 200;
+    opacity: 60%;
+    margin: 8px 0px;
+}
 
 .footer {
     height: 60px;
