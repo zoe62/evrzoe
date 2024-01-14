@@ -156,6 +156,7 @@ img {
     font-size: 32px;
     font-weight: 600;
     color: 1a1a1a;
+    letter-spacing: -0.4px;
 }
 
 .grey-line {
@@ -163,6 +164,7 @@ img {
     font-weight: 200;
     opacity: 60%;
     margin: 8px 0px;
+    letter-spacing: -0.2px;
 }
 
 .footer {
