@@ -62,7 +62,7 @@ a:active {
 
 table {
     text-align: left;
-    padding: 16px;
+    padding: 8px;
 }
 
 th {
@@ -70,7 +70,7 @@ th {
     font-size: 14px;
     font-weight: 400;
     padding-right: 48px;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 td {
@@ -101,12 +101,13 @@ img {
 
 .link-btn-outline {
     width: auto;
+    font-family: Geist;
     text-align: center;
-    text-decoration: none;
-    border: 1px;
-    font-size: 16px;
+    border: 1px solid #1a1a1a;
+    color: 1a1a1a;
+    font-size: 14px;
     cursor: pointer;
-    padding: 16px;
+    padding: 12px 36px;
     background-color: transparent;
 }
 
