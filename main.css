@@ -180,7 +180,7 @@ img {
 }
 
 .description {
-    margin: 48px 16px;
+    margin: 48px 8px;
 }
 
 .title {
@@ -197,6 +197,10 @@ img {
     margin: 16px 0px;
     line-height: 20px;
     letter-spacing: -0.2px;
+}
+
+.space {
+    height: 120px;
 }
 
 .footer {
